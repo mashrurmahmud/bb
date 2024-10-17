@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+a,a:hover{
+    text-decoration: none;
+}
+:root{
+    --common-color:#0f2f44;
+    --ubntu: "Ubuntu", sans-serif;
+    --Abril-fatface: "Abril Fatface", serif;
+    
+}
+
+header{
+    background-color: var(--common-color);
+}
+
+header .row{
+    justify-content: space-between;
+
+
+}
+
+div span{
+    padding: 19px 0px;
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: var(--ubntu);
+    font-weight: 400;
+}
+
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 40px 19px;
+    font-family: var(--ubntu);
+    text-transform: capitalize;
+    color: #0f2f44;
+    
+
+
+}
+
+nav ul li a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+
+nav ul li button{
+    margin: 0 23px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    
+}
+#banner{
+    background-color: #ffc712;
+}
+
+#banner .heading{
+    width: 477px;
+    padding-top: 58px;
+}
+
+#banner .heading h2{
+    font-size: 50px;
+    font-family: var(--ubntu);
+    font-weight: 300;
+    padding-top: 140px;
+}
+
+#banner .heading h1{
+    font-size: 80px;
+    font-family: var(--Abril-fatface);
+    font-weight: 400;
+}
+
+#banner .heading h3{
+    font-size: 32px;
+    letter-spacing: 18px;
+    color: #8484bf;
+    font-family: var(--ubntu);
+    font-weight: 400;
+}
+
+#banner .heading p{
+    font-size: 14px;
+    margin: 35px 0;
+    
+    
+    
+}
+
+#banner  a{
+    background-color: #8383bf;
+    padding: 15px 21px;
+    border-radius: 5px;
+    font-family: var(--ubntu);
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#banner  button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color:#8383bf ;
+}
+
+#banner button{
+    margin: 0 21px;
+}
